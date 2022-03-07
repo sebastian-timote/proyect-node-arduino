@@ -1,0 +1,15 @@
+extends layout.pug
+
+block content
+    h2=title
+    p prender led 
+    button#encender(type='button', value='on') On
+    p apagar led 
+    button#apagar(type='button', value='off') Off
+    div#lectura_sensor 
+    p#hello
+    p#prueba
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js")
+    script
+        include ../controller/uso_sockets.js
+        

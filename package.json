@@ -1,0 +1,22 @@
+{
+  "name": "proyect_leer_variable",
+  "version": "1.0.0",
+  "description": "vamos a leer una variable y a enviar un dato para prender un led",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor app.js"
+  },
+  "author": "sebastian timote <stimotev11@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "johnny-five": "^2.1.0",
+    "pug": "^3.0.2",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
