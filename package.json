@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "vamos a leer una variable y a enviar un dato para prender un led",
   "main": "app.js",
+  "engines": {
+    "node": "12.11.1"
+  },
   "scripts": {
-  "dev": "react-scripts start",
-  "start": "serve -s build",
-  "build": "react-scripts build",
-  "test": "react-scripts test --env=jsdom",
-  "eject": "react-scripts eject",
-  "heroku-postbuild": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "sebastian timote <stimotev11@gmail.com>",
   "license": "MIT",
